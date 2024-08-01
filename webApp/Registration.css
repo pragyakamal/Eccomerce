@@ -1,0 +1,14 @@
+/* signup.css */
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+.error-message {
+    color: red;
+    font-size: 0.875rem;
+}
+
+/* Add any other custom styles you need */

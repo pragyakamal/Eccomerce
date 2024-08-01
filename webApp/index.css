@@ -1,0 +1,432 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    background-color: whitesmoke;
+    display: flex;
+    color: black;
+    justify-content: space-between;
+    text-align: center;
+    height: 65px;
+    width: 1580px;
+    position: fixed;
+    z-index: 1000;
+    top:0;
+}
+
+.nav ul {
+    list-style-type: none;
+    display: flex;
+    text-align: center;
+    
+    padding: 20px;
+    gap: 48px;
+    font-size: 14px;
+}
+
+.nav li {
+    margin: 0px 20px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: teal;
+    font-family: none;;
+    font-size: 21px;
+    
+    font-style: normal;
+}
+
+.nav a:hover {
+    color: teal;
+}
+
+.slide h1 {
+    font-size: 3em;
+    text-align: center;
+    font-style: italic;
+    justify-content: center;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap:20px;
+    padding: 12px;
+    background-color: #f0f0f0;
+}
+.flex-item h2{
+    margin-top: 0;
+}
+.flex-item p{
+    margin: 10px 0;
+}
+
+.flex-container > div {
+    background-color:  #D7B330;
+    margin: 10px;
+    padding: 70px;
+    font-size: 20px;
+    color: black;
+    flex: 1;
+    
+    text-align: center;
+}
+
+.flex-container .Warranty {
+    color: #ddd;
+}
+
+.flex-container > div:hover {
+    background-color: rgb(113, 31, 31);
+}
+.flex-container > h1{
+    font-size: small;
+}
+
+/* Basic button styles */
+.btn {
+    background-color: black; /* Green background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 15px 32px; /* Some padding */
+    text-align: center; /* Centered text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Make the container block */
+    font-size: 16px; /* Increase font size */
+    margin: 10px 2px 20px 2px; /* Some margin */
+    cursor: pointer; /* Pointer/hand icon */
+    border-radius: 8px; /* Rounded corners */
+    transition-duration: 0.4s; /* 0.4 second transition effect */
+}
+
+/* Hover effects */
+.btn:hover {
+    background-color: rgb(113, 31, 31); /* White background */
+    color: black; /* Black text */
+    border: 2px solid rgb(113, 31, 31); /* Green border */
+}
+
+/* Flex container styles */
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 123px;
+    width: 1327px;
+}
+
+.flex-item {
+    background-color: #f1f1f1;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 60%; /* Adjust width as necessary */
+    margin-bottom: 10px; /* Space between flex item and button */
+}
+
+.flex-item h2 {
+    margin-top: 0;
+}
+
+.flex-item p {
+    margin: 10px 0;
+}
+.section h1{
+    text-align: center;
+    font-style: italic;
+    margin: 25px;
+    font-size: 40px;
+}
+.slide.active {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.slide.active img {
+    padding-right: 56px; 
+    margin-top: 1px;/* Optional: add some margin for better spacing */
+}
+.section img{
+    padding: 18px 236px;
+}
+.section-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 45px;
+    gap: 5px;
+}
+
+.section-left {
+    flex: 1;
+    max-width: 60%;
+    font-style: italic;
+    padding: 20px;
+}
+
+.section-left p {
+    font-size: 20px;
+    font-style: normal;
+    padding: 5px;
+}
+
+.image {
+    flex: 1;
+    text-align: center;
+}
+
+.image img {
+    width:600px;
+    height: 500px;
+    border-radius: 8px;
+}
+.section-right{
+    font-style: italic;
+    font-size: 30px;
+    text-align: center;
+}
+.section-right-container {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+.section-right {
+    flex: 1;
+    max-width: 40%;
+}
+
+.section-right h1 {
+    margin: 0;
+}
+
+.images {
+    flex: 1;
+    max-width: 30%;
+}
+
+.images img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.section-leftt {
+    flex: 2;
+    max-width: 60%;
+    padding: 20px;
+}
+.section-leftt p{
+    font-style: normal;
+    font-size: 20px;
+    
+}
+.section-leftt h1{
+    font-style: italic;
+    font-style: 30px;
+}
+/* Contact Section */
+.contact-section {
+    background-color: #f0f0f0;
+    padding: 143px;
+    text-align: center;
+}
+
+.contact-section h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.contact-form {
+    max-width: 360px;
+    display: contents;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-form button {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.4s, color 0.4s, border 0.4s;
+}
+
+.contact-form button:hover {
+    background-color: rgb(113, 31, 31);
+    color: black;
+    border: 2px solid rgb(113, 31, 31);
+}
+
+/* Ensure form elements are consistent */
+input[type="text"],
+input[type="email"],
+textarea {
+    font-size: 16px;
+    line-height: 1.5;
+}
+/* Footer Section */
+.footer {
+    background-color: black;
+    color: white;
+    padding: 40px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: 1595px;
+    margin: 0 auto;
+    padding: 4px 136px;
+}
+
+.footer-left,
+.footer-middle,
+.footer-right {
+    flex: 1;
+    min-width: 250px;
+    margin: 20px 0;
+}
+
+.footer h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: grey;
+}
+
+.footer p,
+.footer ul {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer-middle ul {
+    padding-left: 0;
+}
+
+.footer-middle li {
+    margin-bottom: 10px;
+}
+
+.social-media {
+    display: flex;
+    gap: 15px;
+}
+
+.social-media img {
+    width: 32px;
+    height: 32px;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #aaa;
+}
+
+.map-container {
+    flex: 1;
+   max-width: 900px;
+    padding: 30px;
+    display: flex;
+}
+
+/* Footer Styles */
+
+
+.footer h4 {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: black;
+}
+
+.footer-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-col ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-col ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.footer-col ul li a {
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-col ul li a:hover {
+    color: #D7B330;
+}
+.rating {
+    color: #FFD700; /* Gold color for stars */
+    display: inline-block;
+}
+
+.rating i {
+    margin-right: 2px; /* Space between stars */
+}
+
+
